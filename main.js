@@ -3,13 +3,9 @@
 // In entrambi i casi, andiamo ad inserire nel quadrato il numero restituito dall'api.
 
 $(document).ready(function(){
-    var numero_random;
+
   $(".quadrato").click(function(){
-      getRandomIntInclusive(1, 9) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min + 1)) + min; //Il max è incluso e il min è incluso
-  }
-  console.log(numero_random);
+      var numero =  prompt(parseInt('inserisci un numero'));
+      console.log(numero);
   });
 });
